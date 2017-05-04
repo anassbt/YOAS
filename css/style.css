@@ -1,10 +1,42 @@
 /*GENERAL*/
+div, section, figure, h2 {
+  border: solid 1px black;
+}
+
+header {
+  background-color: lightgrey;
+}
+
+main {
+  background-color: coral;
+}
+
+section {
+  background: lightblue;
+}
+
+footer {
+  background-color: aquamarine;
+}
+
+.realisation {
+  width: 100px;
+  float: left;
+  margin: 0 100px 0 0;
+}
+
+h2 {
+  text-align: center;
+}
+
 body {
   background-image: url(#);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
+
+/*HEADER*/
 
 .NavPc {
   display: none;
@@ -50,9 +82,11 @@ body {
     background-color: #3e8e41;
 }
 
-/*HEADER*/
-
 /*CONTAINER*/
+
+/*FOOTER*/
+
+
 
 /*TABLET*/
 
@@ -63,6 +97,9 @@ body {
 /*DESKTOP*/
 
 @media (min-width: 1024px){
+
+/*HEADER*/
+
 .NavMobile {
   display: none;
 }
@@ -97,5 +134,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #4CAF50;
 }
+
+
+/*CONTAINER*/
+
+
+
 
 }

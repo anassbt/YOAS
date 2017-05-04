@@ -10,6 +10,9 @@ map iframe {
   width: 100%;
 }
 
+.message {
+  height: 35px;
+}
 
 
 

@@ -1,8 +1,24 @@
 /* Très petits écrans (smartphones, moins de 768px) */
 /* Pas besoin de media-query, c'est le style par défaut */
+address {
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
 
 /* Petits écrans (tablettes, 768px et plus) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+
+ }
+
+
+
 
 /* Ecrans moyens (desktops, 992px et plus) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) {
+
+ }

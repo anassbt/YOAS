@@ -4,23 +4,33 @@
       <link rel="stylesheet" href="css/styleoumar.css">
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Contact</title>
+        <title>YOAS</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="favicon" href="target.png">
         <!-- Place favicon.ico in the root directory -->
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
       <header>
-        <nav>
-          <ul>
-            <li>ACCUEIL</li>
-            <li>PRESENTATION</li>
-            <li>PRESTATIONS</li>
-            <li>CONTACT</li>
-          </ul>
+        <nav class="NavMobile">
+          <div class="dropdown">
+           <button class="dropbtn">MENU</button>
+            <div class="dropdown-content">
+             <a href="index.html">ACCUEIL</a>
+             <a href="presentation.html">PRESENTATION</a>
+             <a href="prestation.html">PRESTATION</a>
+             <a href="contact.html">NOUS CONTACTER</a>
+           </div>
+          </div>
         </nav>
+      <nav class="NavPc">
+       <ul>
+        <li><a class="active" href="index.html">ACCUEIL</a></li>
+        <li><a href="presentation.html">PRESENTATION</a></li>
+        <li><a href="prestation.html">PRESTATIONS</a></li>
+        <li><a href="contact.html">NOUS CONTACTER</a></li>
+       </ul>
+     </nav>
       </header>
 
     <section>

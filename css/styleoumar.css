@@ -88,4 +88,20 @@ body {
   display: none;
 }
 
+
+
+.coordonnées {
+  font-size: 60%;
+  width: 30%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+address {
+  height: 3%;
+}
  }

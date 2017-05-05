@@ -1,4 +1,8 @@
 /*GENERAL*/
+html {
+  margin: 0;
+  padding: 0;
+}
 div, section, figure, h2 {
   border: solid 1px black;
 }
@@ -7,16 +11,21 @@ header {
   background-color: lightgrey;
 }
 
-main {
+.MainIndex {
   background-color: coral;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 section {
   background: lightblue;
+  width: 300px;
 }
 
 footer {
   background-color: aquamarine;
+  text-align: center;
 }
 
 .realisation {
@@ -92,6 +101,7 @@ body {
 
 @media (min-width: 768px) {
 
+
 }
 
 /*DESKTOP*/
@@ -140,5 +150,25 @@ li a:hover:not(.active) {
 
 
 
+.real1 {
+  background: lightblue;
+  width: 25%;
+}
+
+.real2 {
+  background: lightgrey;
+  width: 25%;
+}
+
+.real3 {
+  background: yellow;
+  width: 25%;
+
+}
+
+.real4 {
+  background: lightgreen;
+  width: 25%;
+}
 
 }

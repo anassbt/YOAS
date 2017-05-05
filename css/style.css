@@ -1,39 +1,14 @@
 /*GENERAL*/
+html {
+  margin: 0;
+  padding: 0;
+}
 div, section, figure, h2 {
   border: solid 1px black;
 }
 
 header {
   background-color: lightgrey;
-}
-
-main {
-  background-color: coral;
-}
-
-section {
-  background: lightblue;
-}
-
-footer {
-  background-color: aquamarine;
-}
-
-.realisation {
-  width: 100px;
-  float: left;
-  margin: 0 100px 0 0;
-}
-
-h2 {
-  text-align: center;
-}
-
-body {
-  background-image: url(#);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
 }
 
 /*HEADER*/
@@ -84,13 +59,78 @@ body {
 
 /*CONTAINER*/
 
+.MainIndex {
+  background-color: coral;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+section {
+  background: lightblue;
+  width: 300px;
+}
+
+.realisation {
+  width: 100px;
+}
+
+.freal1, .freal2, .freal3, .freal4, .freal5, .freal6 {
+ display: flex;
+ justify-content: space-around;
+ width: 400px;
+ flex-wrap: wrap;
+}
+
+h2 {
+  text-align: center;
+}
+
+body {
+  background-image: url(#);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.real1 {
+  background: lightblue;
+}
+
+.real2 {
+  background: lightgrey;
+}
+
+.real3 {
+  background: yellow;
+}
+
+.real4 {
+  background: blue;
+}
+
+.real5 {
+  background: violet;
+}
+
+.real6 {
+  background: pink;
+}
+
 /*FOOTER*/
 
-
+footer {
+  background-color: aquamarine;
+  text-align: center;
+}
 
 /*TABLET*/
 
 @media (min-width: 768px) {
+
+.real5,.real6 {
+  display: none;
+}
 
 }
 
@@ -138,7 +178,39 @@ li a:hover:not(.active) {
 
 /*CONTAINER*/
 
+.real5,.real6 {
+  display: block;
+}
 
 
+.real1 {
+  background: lightblue;
+  width: 25%;
+}
 
+.real2 {
+  background: lightgrey;
+  width: 25%;
+}
+
+.real3 {
+  background: yellow;
+  width: 25%;
+
+}
+
+.real4 {
+  background: blue;
+  width: 25%;
+}
+
+.real5 {
+  background: violet;
+  width: 25%;
+}
+
+.real6 {
+  background: pink;
+  width: 25%;
+}
 }

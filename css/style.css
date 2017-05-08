@@ -71,16 +71,19 @@ section {
   width: 300px;
 }
 
+.freal1, .freal2, .freal3, .freal4, .freal5, .freal6 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: center;
+}
+
 .realisation {
   width: 100px;
 }
 
-.freal1, .freal2, .freal3, .freal4, .freal5, .freal6 {
- display: flex;
- justify-content: space-around;
- width: 400px;
- flex-wrap: wrap;
-}
 
 h2 {
   text-align: center;

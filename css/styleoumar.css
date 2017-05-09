@@ -1,6 +1,25 @@
 /* Très petits écrans (smartphones, moins de 768px) */
 /* Pas besoin de media-query, c'est le style par défaut */
 
+body#mypage{
+  background: url("../img/startupnetcon.jpg") no-repeat fixed center center / cover;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption, .NavTab, section p, h1   {
+  color: white;
+}
+
+li {
+  width: 25%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
 address {
   text-align: center;
   margin-top: 10%;

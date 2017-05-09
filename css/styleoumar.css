@@ -76,6 +76,25 @@ body {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
+
+
+footer {
+ background-color: aquamarine;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.footer1, .footer2 {
+ width: 30%;
+}
+
+
+
+
+
+
 /****************************************************
 ***************************************************
 ***************************************************

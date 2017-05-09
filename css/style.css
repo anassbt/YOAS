@@ -125,6 +125,13 @@ body {
 footer {
   background-color: aquamarine;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer1, .footer2 {
+  width: 30%;
 }
 
 /*TABLET*/
@@ -215,5 +222,17 @@ li a:hover:not(.active) {
 .real6 {
   background: pink;
   width: 25%;
+}
+
+footer {
+  background-color: aquamarine;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer1, .footer2 {
+  width: 30%;
 }
 }

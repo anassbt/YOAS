@@ -2,8 +2,10 @@
 html {
   margin: 0;
   padding: 0;
+  background: url(../img/startupnetcon.jpg)no-repeat fixed center center / cover;
 }
-div, section, figure, h2 {
+
+div, section, figure {
   border: solid 1px black;
 }
 
@@ -11,6 +13,7 @@ header {
   background-color: lightgrey;
   position: sticky;
   top: 0;
+  font-family: 'Pacifico', cursive;
 }
 
 /*HEADER*/
@@ -18,7 +21,6 @@ header {
 .NavPc {
   display: none;
 }
-
 
 .dropbtn {
     background-color: #4CAF50;
@@ -66,14 +68,12 @@ header {
 /*CONTAINER*/
 
 .MainIndex {
-  background-color: coral;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
 }
 
 section {
-  background: lightblue;
   width: 300px;
 }
 
@@ -93,16 +93,11 @@ section {
 
 h2 {
   text-align: center;
+  font-family: 'Inknut Antiqua', serif;
 }
 
-body {
-  background-image: url(#);
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
 
-.real1 {
+/*.real1 {
   background: lightblue;
 }
 
@@ -124,12 +119,27 @@ body {
 
 .real6 {
   background: pink;
+}*/
+
+figcaption ul {
+  list-style-type: none;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+figure {
+  margin: auto;
+}
+
+span {
+  font-family: 'Lobster', cursive;
 }
 
 /*FOOTER*/
 
 footer {
-  background-color: aquamarine;
+  background-color: #fffff0;
+  font-family: 'Lobster', cursive;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -158,6 +168,7 @@ footer {
 
 /*HEADER*/
 
+
 .NavMobile {
   display: none;
 }
@@ -165,6 +176,7 @@ footer {
 .NavPc {
   display: block;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -191,7 +203,7 @@ nav li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: ##5f9ea0;
 }
 
 
@@ -201,40 +213,14 @@ nav li a:hover:not(.active) {
   display: block;
 }
 
-
-.real1 {
-  background: lightblue;
+.real1, .real2, .real3, .real4, .real5, .real6 {
   width: 25%;
 }
 
-.real2 {
-  background: lightgrey;
-  width: 25%;
-}
-
-.real3 {
-  background: yellow;
-  width: 25%;
-
-}
-
-.real4 {
-  background: blue;
-  width: 25%;
-}
-
-.real5 {
-  background: violet;
-  width: 25%;
-}
-
-.real6 {
-  background: pink;
-  width: 25%;
-}
+/*FOOTER*/
 
 footer {
-  background-color: aquamarine;
+  background-color: #fffff0;
   text-align: center;
   display: flex;
   flex-wrap: wrap;

@@ -1,0 +1,326 @@
+/* Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+body#mypage{
+  background: url("../img/startupnetcon.jpg") no-repeat fixed center center / cover;
+  margin: 0;
+  padding: 0;
+}
+
+body#page{
+  background: url("../img/contact-us-3.jpg") no-repeat fixed center center / cover;
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, section p {
+  text-align: center;
+}
+
+
+figcaption, .NavTab, section p, h1   {
+  color: white;
+}
+
+li {
+  width: 25%;
+}
+
+header {
+ background-color: lightgrey;
+ position: sticky;
+ top: 0;
+ font-family: 'Pacifico', cursive;
+}
+
+address {
+  text-align: center;
+  margin-top: 10%;
+  width: 100%;
+  height: 200%;
+}
+
+map iframe {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.message {
+  height: 35px;
+}
+
+.NavPc {
+  display: none;
+}
+
+.coordonnées {
+  font-size: 70%;
+}
+h2 {
+  color: #e94e18;
+}
+
+.realisation {
+  width: 100px;
+  float: left;
+  margin: 0 100px 0 0;
+}
+h2 {
+  text-align: center;
+}
+body {
+  background-image: url(#);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+footer {
+ background-color: #fffff0 ;
+ font-family: 'Lobster', cursive;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+}
+.footer1, .footer2 {
+ width: 30%;
+}
+
+
+
+
+
+
+/****************************************************
+***************************************************
+***************************************************
+***************************************************
+               PRESTATION MOBILE
+***************************************************
+***************************************************
+***************************************************
+****************************************************/
+
+.NavTab, .NavComp {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px) {
+
+
+  /****************************************************
+  ***************************************************
+  ***************************************************
+  ***************************************************
+                 PRESTATION TABLETTE
+  ***************************************************
+  ***************************************************
+  ***************************************************
+  ****************************************************/
+
+.NavTab {
+  display: block;
+}
+
+.Navcomp {
+  display: none;
+}
+
+h1, section p {
+  text-align: center;
+}
+
+ }
+
+
+
+
+
+
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px) {
+.NavPc {
+  display: block;
+}
+
+.NavMobile {
+  display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+
+.coordonnées {
+  font-size: 60%;
+  width: 30%;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+address {
+  height: 3%;
+}
+
+
+/****************************************************
+***************************************************
+***************************************************
+***************************************************
+               PRESTATION PC
+***************************************************
+***************************************************
+***************************************************
+****************************************************/
+
+.NavComp {
+  display: block;
+}
+
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+
+nav li {
+   float: left;
+   width: 25%;
+}
+
+nav li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+   background-color: #111;
+}
+
+.active {
+   background-color: ##5f9ea0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+figure {
+  width: 25%;
+}
+
+.prestation {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+footer {
+ background-color: #fffff0 ;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.footer1, .footer2 {
+ width: 45%;
+}
+ }

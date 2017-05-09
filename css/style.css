@@ -1,0 +1,234 @@
+/*GENERAL*/
+html {
+  margin: 0;
+  padding: 0;
+  background: url(../img/startupnetcon.jpg)no-repeat fixed center center / cover;
+}
+
+div, section, figure {
+  border: solid 1px black;
+}
+
+header {
+  background-color: lightgrey;
+  position: sticky;
+  top: 0;
+  font-family: 'Pacifico', cursive;
+}
+
+/*HEADER*/
+
+.NavPc {
+  display: none;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*CONTAINER*/
+
+.MainIndex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+section {
+  width: 300px;
+}
+
+.freal1, .freal2, .freal3, .freal4, .freal5, .freal6 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: center;
+}
+
+.realisation {
+  width: 100px;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+
+/*.real1 {
+  background: lightblue;
+}
+
+.real2 {
+  background: lightgrey;
+}
+
+.real3 {
+  background: yellow;
+}
+
+.real4 {
+  background: blue;
+}
+
+.real5 {
+  background: violet;
+}
+
+.real6 {
+  background: pink;
+}*/
+
+figcaption ul {
+  list-style-type: none;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+figure {
+  margin: auto;
+}
+
+span {
+  font-family: 'Lobster', cursive;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #fffff0;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.footer1, .footer2 {
+  width: 30%;
+}
+
+/*TABLET*/
+
+@media (min-width: 768px) {
+
+.real5,.real6 {
+  display: none;
+}
+
+}
+
+/*DESKTOP*/
+
+@media (min-width: 1024px){
+
+/*HEADER*/
+
+
+.NavMobile {
+  display: none;
+}
+
+.NavPc {
+  display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: ##5f9ea0;
+}
+
+
+/*CONTAINER*/
+
+.real5,.real6 {
+  display: block;
+}
+
+.real1, .real2, .real3, .real4, .real5, .real6 {
+  width: 25%;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #fffff0;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer1, .footer2 {
+  width: 45%;
+}
+}

@@ -217,6 +217,10 @@ nav li a:hover:not(.active) {
   width: 25%;
 }
   
+  .prestation figure {
+  width: 25%;
+  }
+  
 .prestation {
  display: flex;
  justify-content: space-around;

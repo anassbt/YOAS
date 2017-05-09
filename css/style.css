@@ -216,6 +216,13 @@ nav li a:hover:not(.active) {
 .real1, .real2, .real3, .real4, .real5, .real6 {
   width: 25%;
 }
+  
+.prestation {
+ display: flex;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ flex-direction: row;
+}
 
 /*FOOTER*/
 

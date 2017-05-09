@@ -7,6 +7,13 @@ body#mypage{
   padding: 0;
 }
 
+body#page{
+  background: url("../img/contact-us-3.jpg") no-repeat fixed center center / cover;
+  margin: 0;
+  padding: 0;
+}
+
+
 h1, section p {
   text-align: center;
 }
@@ -21,8 +28,10 @@ li {
 }
 
 header {
-  position: sticky;
-  top: 0;
+ background-color: lightgrey;
+ position: sticky;
+ top: 0;
+ font-family: 'Pacifico', cursive;
 }
 
 address {
@@ -103,13 +112,14 @@ body {
 
 
 footer {
- background-color: aquamarine;
+ background-color: #fffff0 ;
+ font-family: 'Lobster', cursive;
  text-align: center;
  display: flex;
- flex-direction: column;
+ flex-wrap: wrap;
+ flex-direction: row;
  justify-content: space-around;
 }
-
 .footer1, .footer2 {
  width: 30%;
 }
@@ -246,6 +256,50 @@ address {
   display: block;
 }
 
+
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+
+nav li {
+   float: left;
+   width: 25%;
+}
+
+nav li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+   background-color: #111;
+}
+
+.active {
+   background-color: ##5f9ea0 ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 figure {
   width: 25%;
 }
@@ -255,5 +309,18 @@ figure {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
+}
+
+footer {
+ background-color: #fffff0 ;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.footer1, .footer2 {
+ width: 45%;
 }
  }
